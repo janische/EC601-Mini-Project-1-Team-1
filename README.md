@@ -3,6 +3,7 @@
 ## Sprint 1
 ### User story
 #### Jonathan's part.   
+We, Popeyes, want to know the sentiment of tweets about our new burger (chicken sandwich) in the time from when we introduced it until now.
 
 ### Architecture Flowsheet
 #### Zhou's part.
