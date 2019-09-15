@@ -17,4 +17,5 @@ Get results of people's sentiment from Google NL API
 Yeah, we did!   
 
 ### Write examples to use at least to get twitter feed and get results from one of the Google modules.
+Please go to see tweepyTest1.py for our twitter feed, sentiment_analysis.py for Google API.        
 
