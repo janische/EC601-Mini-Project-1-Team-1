@@ -11,7 +11,7 @@ Load data from popeyes twitter account through tweepy API
 Extract needed information (people's comments about popeyes' new burger) from result    
 Import information to Google Natural Language API   
 Get results of people's sentiment from Google NL API     
-![Architecture Image](img/imgArchitecture.jpg )    
+![Architecture Image](img/imgArchitecture.JPG )    
 
 ### Study the Twitter and Google frameworks
 Yeah, we did!   
