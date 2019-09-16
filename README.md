@@ -3,7 +3,7 @@
 ## Sprint 1
 ### User story
 #### Jonathan's part.   
-We, Popeyes, want to know the sentiment of tweets about our new burger (chicken sandwich) in the time from when we introduced it until now.
+We, Popeyes (a multinational fast-food restaurant chain), want to know the sentiment (score and magnitude) of tweets about our new burger (chicken sandwich) in the time from when we introduced it until now so that we can determine whether to continue this menu item, and if so, whether it needs to be modified to be made better.
 
 ### Architecture Flowsheet
 #### Zhou's part.
