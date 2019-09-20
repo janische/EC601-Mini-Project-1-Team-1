@@ -1,0 +1,6 @@
+Twitter stuff > twitter_output_file
+
+
+export GOOGLE_APPLICATION_CREDENTIALS="/home/ece-student/Desktop/sf_ENG_EC_602/EC601 Mini Project 1 Team 1-39de0aa42d79.json"
+
+python sentiment_analysis.py twitter_output_file
