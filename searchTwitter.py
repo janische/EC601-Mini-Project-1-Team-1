@@ -30,10 +30,10 @@ try:
         #Twitter API credentials
         #warning!!!!
         #Before upload to GIthub, replace them!!!
-        consumer_key = "TCKP27KNQtOLbMazCX15koTYz",
-        consumer_secret = "3oGse7Co07UfA3XtW4GGqr7AdlkyJM6rccWGm2XsmINS4TSPhQ",
-        access_token = "3260583018-ONrFOsz3fBTIbUDNVylTz48VOXCyt8c4hA6hwHd",
-        access_token_secret = "12A68ftnE7vhkGLrBsw5ycNXjTme6axTBJV361z2Mf9zC"
+        consumer_key = "Mine",
+        consumer_secret = "Mine",
+        access_token = "Mine",
+        access_token_secret = "Mine"
      )
 
     #write tweet objects to txt/Json file
