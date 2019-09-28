@@ -43,7 +43,7 @@ try:
     numberTweet = int (numberTweets)
     # this is where the fun actually starts :)
     for tweet in ts.search_tweets_iterable(tso):
-        if num <= numberTweet:
+        if num < numberTweet:
             # exclude the retweet
             if (not tweet['retweeted']) and ('RT @' not in tweet['text']):
                 #file.write('@%s tweeted: %s' % ( tweet['user']['screen_name'], tweet['text'] ))
