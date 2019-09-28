@@ -1,19 +1,23 @@
-# EC602-Mini-Project-1    
+# EC602-Mini-Project-1     
 
-## Build a system for running our application   
+## How to build a our system        
 ### Environment   
+Linux / Windows / Mac operating system that can run Python program works.      
 
 ### Packages needed   
+Twitter     
+You need to download searchtweets library through Pypi: 
+<b> pip install searchtweets </b>           
+Or you can install the development version locally via:   
+git clone https://github.com/twitterdev/search-tweets-python   
+cd search-tweets-python   
+pip install -e .     
 
-READM of how to build your system.
+Google    
+Install Google Natural language api for Python       
+<b> pip install --upgrade google-cloud-language </b>    
 
 
-## Below parts should be in seperate file!  
-### Target Users
-
-### MVP 
-
-### User interface (python GUI if possible)
 
 ### User story
 #### Jonathan's part.   
