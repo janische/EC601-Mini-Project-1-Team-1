@@ -17,6 +17,9 @@ pip install -e .
 Install Google Natural language api for Python       
 pip install --upgrade google-cloud-language        
 
+<b> Tkinter </b>   
+Package for Python GUI use.   
+Just import tkinter or use "from tkinter import * " is fine.
 
 
 ### User story   
