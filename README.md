@@ -5,17 +5,17 @@
 Linux / Windows / Mac operating system that can run Python program works.      
 
 ### Packages needed   
-Twitter     
-You need to download searchtweets library through Pypi: 
-<b> pip install searchtweets </b>           
+<b> Twitter </b>     
+You need to download searchtweets library through Pypi:    
+pip install searchtweets               
 Or you can install the development version locally via:   
 git clone https://github.com/twitterdev/search-tweets-python   
 cd search-tweets-python   
 pip install -e .     
 
-Google    
+<b> Google </b>   
 Install Google Natural language api for Python       
-<b> pip install --upgrade google-cloud-language </b>    
+pip install --upgrade google-cloud-language        
 
 
 
