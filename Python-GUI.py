@@ -11,7 +11,7 @@ window.title("Analysis feedback from Tweets' contents")
 window.geometry('500x300')  #size of window
 
 # label   
-lbl = Label(window, text = "PLease type in Twitter's account name!", font = ("Arial Bold", 10))
+lbl = Label(window, text = "Please type in Twitter account's name!", font = ("Arial Bold", 10))
 lbl.grid(column = 0, row = 0)
 
 # input let user type in
