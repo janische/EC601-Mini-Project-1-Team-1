@@ -21,6 +21,8 @@ pip install --upgrade google-cloud-language
 Package for Python GUI use.   
 Just import tkinter or use "from tkinter import * " is fine.
 
+### Steps for building   
+
 
 ### User story   
 We, Popeyes (a multinational fast-food restaurant chain), want to know the sentiment (score and magnitude) of tweets about our new burger (chicken sandwich) in the time from when we introduced it until now so that we can determine whether to continue this menu item, and if so, whether it needs to be modified to be made better.
