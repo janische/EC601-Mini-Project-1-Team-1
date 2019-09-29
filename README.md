@@ -2,7 +2,7 @@
 
 ## How to build a our system        
 ### Environment   
-Linux / Windows / Mac operating system that can run Python program works.      
+Linux operating system that can run Python program works.      
 
 ### Packages needed   
 <b> Twitter </b>     
@@ -22,7 +22,7 @@ Package for Python GUI use.
 Just import tkinter or use "from tkinter import * " is fine.
 
 ### Steps for building   
-1. Download our Python-GUI.py file / Python - GUI executable file       
+1. Download our Python-GUI.py file (then you need to python command to run) / Python - GUI executable file in Python-GUI folder to run directly      
 2. Download our Twitter-search.py file    
 3. Download our Google sentiment_analysis.py file   
 4. Open python-GUI executable file to run   
