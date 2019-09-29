@@ -21,6 +21,12 @@ pip install --upgrade google-cloud-language
 Package for Python GUI use.   
 Just import tkinter or use "from tkinter import * " is fine.
 
+### Steps for building   
+1. Download our Python-GUI.py file / Python - GUI executable file       
+2. Download our Twitter-search.py file    
+3. Download our Google sentiment_analysis.py file   
+4. Open python-GUI executable file to run   
+
 
 ### User story   
 We, Popeyes (a multinational fast-food restaurant chain), want to know the sentiment (score and magnitude) of tweets about our new burger (chicken sandwich) in the time from when we introduced it until now so that we can determine whether to continue this menu item, and if so, whether it needs to be modified to be made better.
