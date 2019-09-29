@@ -92,8 +92,10 @@ def analyze(input_filename):
         if (num_Tweets[it] != 0):
             sentiment_avgs[it] = total_score[it]/num_Tweets[it]
             magnitude_avgs[it] = total_magnitude[it]/num_Tweets[it]
-
-    print_result(sentiment_avgs,magnitude_avgs,num_Tweets)
+    if (sum(num_Tweets) == 0):
+        print("\n\n\nThere were no results.")
+    else:
+        print_result(sentiment_avgs,magnitude_avgs,num_Tweets)
 # [END language_sentiment_tutorial_analyze_sentiment]
 
 if __name__ == '__main__':
