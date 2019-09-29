@@ -36,14 +36,14 @@ We, a small family-owned restaurant, want to know the sentiment of tweets about 
 We, a regional restaurant chain whose biggest competition is a national chain in our region, want to know the sentiment of tweets about some of our competitor's menu items so that we can add better versions of those items to our menu to become the dominant chain in our region.
 
 ### Architecture Flowsheet
-Start Python GUI App
-Collect key information from User's input
-Check number of keywords is less than or equal to 3, if so, go to next step; otherwise, go back to ask user type in again
-Use input information from user to Load data from needed twitter account through tweepy API    
-Extract needed information (people's comments about food) and write into txt file  
-Import information to Google Natural Language API   
-Export analysis of people's sentiment from Google NL API   
-End the program
+Start Python GUI App    
+Collect key information from User's input    
+Check number of keywords is less than or equal to 3, if so, go to next step; otherwise, go back to ask user type in again    
+Use input information from user to Load data from needed twitter account through tweepy API      
+Extract needed information (people's comments about food) and write into txt file     
+Import information to Google Natural Language API     
+Export analysis of people's sentiment from Google NL API     
+End the program    
 ![Architecture Image](img/FlowChart.PNG )    
   
 
