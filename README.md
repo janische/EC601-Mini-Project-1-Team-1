@@ -22,6 +22,10 @@ Package for Python GUI use.
 Just import tkinter or use "from tkinter import * " is fine.
 
 ### Steps for building   
+1. Download our Python-GUI.py file / Python - GUI executable file       
+2. Download our Twitter-search.py file    
+3. Download our Google sentiment_analysis.py file   
+4. Open python-GUI executable file to run   
 
 
 ### User story   
