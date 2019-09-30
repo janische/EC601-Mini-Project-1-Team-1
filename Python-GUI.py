@@ -53,7 +53,6 @@ def getinput():
   #lbl.configure(text = res)
   ST.main(txt1.get(), txt2.get(), txt3.get(), txt4.get(), txt5.get())
 
-
 btn = Button(window, text="Get account name", command = getinput)
 btn.grid(column=0, row = 10)
 
