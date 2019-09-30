@@ -1,6 +1,7 @@
 from tkinter import *  #Tkinter package
 
 import searchTwitter as ST
+import sentiment_analysis as GSA
 
 import sys
 import os
@@ -52,9 +53,15 @@ def getinput():
   #lbl.configure(text = res)
   ST.main(txt1.get(), txt2.get(), txt3.get(), txt4.get(), txt5.get())
 
+
 btn = Button(window, text="Get account name", command = getinput)
 btn.grid(column=0, row = 10)
 
+def sentiment_analysis():
+  GSA.main("searchTweetOutput.txt")
+
+btn = Button(window, text="Analyze Tweets", command = sentiment_analysis)
+btn.grid(column=0, row = 11)
 
 
 """
