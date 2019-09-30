@@ -1,26 +1,8 @@
-# Copyright 2016, Google, Inc.
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#    http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-
-# [START language_sentiment_tutorial]
-"""Demonstrates how to make a simple call to the Natural Language API."""
-
-# [START language_sentiment_tutorial_imports]
 import argparse
 
 from google.cloud import language
 from google.cloud.language import enums
 from google.cloud.language import types
-# [END language_sentiment_tutorial_imports]
 
 
 def average(sentiments,num_Tweets,total_score,total_magnitude,sentiment_avgs,magnitude_avgs):
@@ -44,7 +26,7 @@ def print_result(sentiment_avgs,magnitude_avgs,num_Tweets):
     percent_neg = 100.00*num_Tweets[1]/sum(num_Tweets)
     percent_neu = 100.00*num_Tweets[2]/sum(num_Tweets)
     
-    print("\n\n\n")
+    print("\n")
     print("Out of {} tweets in supported languages, the results were:".format(sum(num_Tweets)))
     print(' {:.2f}% positive, {:.2f}% negative, and {:.2f}% neutral.'.format(
             percent_pos, percent_neg, percent_neu))
@@ -59,7 +41,6 @@ def print_result(sentiment_avgs,magnitude_avgs,num_Tweets):
     return 0
 
 
-# [START language_sentiment_tutorial_analyze_sentiment]
 def analyze(input_filename):
     num_Tweets = [0, 0, 0]
     total_score = [0, 0, 0]
@@ -93,18 +74,9 @@ def analyze(input_filename):
             sentiment_avgs[it] = total_score[it]/num_Tweets[it]
             magnitude_avgs[it] = total_magnitude[it]/num_Tweets[it]
     if (sum(num_Tweets) == 0):
-        print("\n\n\nThere were no results.")
+        print("\nThere were no results.")
     else:
         print_result(sentiment_avgs,magnitude_avgs,num_Tweets)
-# [END language_sentiment_tutorial_analyze_sentiment]
 
-if __name__ == '__main__':
-    parser = argparse.ArgumentParser(
-        description=__doc__,
-        formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument(
-        'input_filename')
-    args = parser.parse_args()
-
-    analyze(args.input_filename)
-# [END language_sentiment_tutorial]
+def main(input_filename):
+    analyze(input_filename)
